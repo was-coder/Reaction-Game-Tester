@@ -10,7 +10,7 @@
         <li>WHen the start game button has been clicked. Click on the boxes that appears as quickly as possible to record how fast you react to each boxes that displayed</li>
         <li>Your reaction time and scores are recorded at the right and left of the game respectively</li>
         <li>When you failed to click any boxes within 3seconds the game ends or you can end the game anytime of your choice</li>
-        <li>Your total score will be displayed as soon as the game ends. Enjoy and have fun <i class="fas fa-smile-wink" class="text-warning"></i></li>
+        <li>Your total score will be displayed as soon as the game ends. Enjoy and have fun <i class="fas fa-smile-wink"></i></li>
     </ul>
 </div>
 
