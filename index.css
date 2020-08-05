@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+  visibility: hidden;
+  position: relative;
+}
+
+#btn2 {
+  text-align: center;
+  visibility: hidden;
+}
+
+#scoreBoard {
+  visibility: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=index.css.map */

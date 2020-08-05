@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <title></title>
+</head>
+<body>
+
+    <div class="my-3 container text-center">
+        <h1 class="text-capitalize">reaction game tester</h1>
+        <h4>Test your reaction by clicking on the boxes that appears as quickly as possible</h4>
+        <button class="btn btn-primary text-capitalize" id="btn1">start game</button>
+        <button class="btn btn-success text-capitalize" id="btn2">end game</button>
+    </div>
+
+    <div class="container text-capitalize font-weight-bold d-flex justify-content-between">
+        <p>your reaction time : <span id="time"></span> </p>
+        <p>scores : <span id="scores"></span> </p>
+    </div>
+
+    <div class="shape" id="shape"></div>
+    
+    <div class="d-flex justify-content-center align-items-center" id="scoreBoard">
+        <h1 class="text-uppercase">game over</h1> <br> <br>
+        <h4>Your scores: <span id="totalScore"></span> </h4>
+    </div>
+
+    <script src="/index.js"></script>
+    <script src="/bootstrap.bundle.min.js"></script>
+    <script src="/jquery-3.4.1.min.js"></script>
+</body>
+</html>

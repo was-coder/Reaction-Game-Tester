@@ -1,0 +1,44 @@
+$my-size : (
+    size1 : 0,
+    size2 : 5px,
+    size3 : 100px
+);
+
+@function get-size($size-value) {
+    @return map-get($my-size , $size-value)
+};
+
+$my-color : (
+    color1 : rgb(1, 180, 1),
+    color2 : rgb(39, 39, 245)
+);
+
+@function get-color($color-size) {
+    @return map-get($my-color , $size-value)
+};
+
+
+* {
+    margin:get-size(size1);
+    padding:get-size(size1);
+    box-sizing: border-box;
+}
+
+.shape {
+    width: get-size(size3);
+    height: get-size(size3);
+    background-color: green;
+    border-radius: 50%;
+    visibility: hidden;
+    position: relative;
+}
+
+#btn2 {
+    text-align: center;
+    visibility: hidden;
+}
+
+#scoreBoard {
+    visibility: hidden;
+    flex-direction: column;
+}
