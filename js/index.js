@@ -6,8 +6,7 @@ var start = new Date().getTime();
 document.getElementById("btn1").onclick = function() {
     document.getElementById("btn1").style.visibility = "hidden";
     document.getElementById("btn2").style.visibility = "visible";
-    document.getElementById("btn3").style.display = "block";
-    document.getElementById("btn3").style.visibility = "visible";
+    document.getElementById("btn3").style.visibility = "hidden";
     document.getElementById("shape").style.visibility = "visible";
     document.getElementById("scoreBoard").style.visibility = "hidden";
     document.getElementById("react-time").style.visibility = "visible";
@@ -30,7 +29,7 @@ function getRGB() {
 
 //the main look, length that the game will cover, time of each click
 document.getElementById("shape").onclick = function() {
-    var size1 = Math.random() * 350;
+    var size1 = Math.random() * 320;
     var size2 = Math.random() * 100 + 5;
     document.getElementById("shape").style.display = "none";
     document.getElementById("shape").style.top = size1 + "px";
