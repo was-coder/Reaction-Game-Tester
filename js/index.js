@@ -29,11 +29,12 @@ function getRGB() {
 
 //the main look, length that the game will cover, time of each click
 document.getElementById("shape").onclick = function() {
-    var size1 = Math.random() * 320;
+    var top = Math.random() * 350;
+    var left = Math.random() * 90;
     var size2 = Math.random() * 100 + 5;
     document.getElementById("shape").style.display = "none";
-    document.getElementById("shape").style.top = size1 + "px";
-    document.getElementById("shape").style.left = size1 + "px";
+    document.getElementById("shape").style.top = top + "px";
+    document.getElementById("shape").style.left = left + "%";
     document.getElementById("shape").style.width = size2 + "px";
     document.getElementById("shape").style.height = size2 + "px";
 
@@ -85,5 +86,5 @@ function restart() {
     document.location.href = "";
 }
 
-//claculating the time in milliseconds on each click
+//calculating the time in milliseconds on each click
 setTimeout(appear,Math.random() * 3000);
