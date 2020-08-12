@@ -15,8 +15,19 @@
 }
 
 #btn2 {
+  position: absolute;
+  left: 60%;
   text-align: center;
   visibility: hidden;
+}
+
+#btn3 {
+  display: none;
+}
+
+.pos-btn {
+  position: absolute;
+  left: 35%;
 }
 
 #scoreBoard {
